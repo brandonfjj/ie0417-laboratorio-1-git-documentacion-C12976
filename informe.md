@@ -303,8 +303,23 @@ o experimentales.
 ### Salida de `git log --graph --oneline --decorate --all`
 
 ```text
-[pegar la salida real de terminal]
+*   2aa796e (HEAD -> main, origin/main) Merge branch 'feature/informe' into main
+|\
+| * 5d515b4 (origin/feature/informe, feature/informe) docs(informe): Documentación completa del informe
+|/
+*   51c18bb Merge branch 'feature/readme' into main
+|\
+| * 487e75c (origin/feature/readme, feature/readme) docs: agregar README con instrucciones de instalacion y estructura del proyecto
+|/
+*   3abe28d Merge branch 'feature/analisis-git' into main
+|\
+| * 4889932 (origin/feature/analisis-git, feature/analisis-git) docs(git): agregar analisis obligatorio de Git (5.3) y evidencias de Learn Git Branching
+|/
+* 9a3f294 fix: corregir estructura de site/cpp para que index.html quede en la raiz de /cpp/
+* ae73672 Publicar sitio estatico: configuracion y HTML de Doxygen (LevelDB) y Sphinx (Rich)
+
 ```
+
 
 ### Tag de entrega
 
